@@ -11,7 +11,7 @@ string displayAsHex(string number);
 unsigned int displayAsDecimal(string number);
 void addition(string number, string number2);
 const int NUMBER = 50; //Number used throughout the program
-const int NUMBER2 = 50; //Second number used at the end of the program for addition.
+const int NUMBER2 = 50; //Second number used at the end of the program for addition.sdf
 
 int main() {
     cout << "Original Number: " << NUMBER << endl;
