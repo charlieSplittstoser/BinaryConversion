@@ -13,4 +13,5 @@ Future additions/goals:
 - Add support for negative numbers
   - Signed numbers
   - Two's complement
-<s>- Add user input support</s>
+- Support for user input
+
