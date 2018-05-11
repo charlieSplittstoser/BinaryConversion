@@ -31,14 +31,11 @@ int main() {
  * n = the string that we are building.
  */
 string convertToBinary(int number) {
-    
     string n = "";
-    
     for (int i = 31; i >= 0; i--) {
         n = static_cast<char>(number % 2 + '0') + n;
         number /= 2;
     }
-    
     return n;
 }
 
@@ -46,7 +43,6 @@ string convertToBinary(int number) {
  * Function purpose: Simply return the binary number that was previously converted.
  */
 string displayAsBinary(string number) {
-    
     return number;
 }
 
